@@ -370,7 +370,6 @@ Create a simple CI/CD pipeline that runs tests on every push and deploys the app
 Workflow File
 Create a file named .github/workflows/ci-cd.yml in your repository.
 
-yaml
 
 name: CI/CD Pipeline
 
@@ -414,6 +413,8 @@ jobs:
       run: |
         echo "Deploying to production server..."
         # Add deployment commands here
+
+
 
 Explanation of the Workflow
 Trigger:
