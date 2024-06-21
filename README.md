@@ -10,6 +10,7 @@ Introduction to GitHub:
 
 (1) What is GitHub, and what are its primary functions and features? Explain how it supports collaborative software development.
 Repositories on GitHub:
+
 GitHub is a web-based platform that provides version control and collaborative software development using Git. It enables developers to work on projects collaboratively by offering tools for code management, project tracking, and team collaboration.
 
 Primary Functions and Features
@@ -65,6 +66,7 @@ Projects like TensorFlow (by Google) and React (by Facebook) leverage GitHub for
 
 (2) What is a GitHub repository? Describe how to create a new repository and the essential elements that should be included in it.
 Version Control with Git:
+
 A GitHub repository (repo) is a storage space where your project's files and their revision history are kept. It can include code, text files, images, and more. Repositories can be public (accessible to anyone) or private (restricted access).
 
 Creating a New Repository
@@ -139,6 +141,7 @@ Contributing Guidelines: Detailed instructions on how to contribute, report issu
 
 (3) Explain the concept of version control in the context of Git. How does GitHub enhance version control for developers?
 Branching and Merging in GitHub:
+
 Version control is a system that records changes to files over time, allowing you to recall specific versions later. It is essential for managing and tracking changes in software development projects.
 
 Git is a distributed version control system that enables multiple developers to work on a project simultaneously without interfering with each other's work. It offers robust features for tracking changes, branching, and merging, making it a popular choice for modern software development.
@@ -205,6 +208,7 @@ CI/CD: GitHub Actions run automated tests on each PR to ensure that changes do n
 
 (4) What are branches in GitHub, and why are they important? Describe the process of creating a branch, making changes, and merging it back into the main branch.
 Pull Requests and Code Reviews:
+
 Branches in GitHub are parallel versions of a repository, allowing developers to work on different features, fixes, or experiments independently from the main codebase. Each branch can have its own set of commits and changes, which can later be merged into other branches.
 
 Importance of Branches
@@ -280,6 +284,7 @@ Code Reviews: The PRs are reviewed by team members who provide feedback, request
 
 
 (5) What is a pull request in GitHub, and how does it facilitate code reviews and collaboration? Outline the steps to create and review a pull request.
+
 A pull request (PR) in GitHub is a feature that allows developers to notify team members about changes they’ve pushed to a branch in a repository. It serves as a request to merge those changes into another branch, typically the main branch. Pull requests are fundamental to collaborative workflows, facilitating code reviews, discussions, and approval processes before integrating changes into the main codebase.
 
 How Pull Requests Facilitate Code Reviews and Collaboration
@@ -348,6 +353,7 @@ Automated Testing: PRs in TensorFlow trigger automated tests to validate changes
 
 (6) GitHub Actions:
 Explain what GitHub Actions are and how they can be used to automate workflows. Provide an example of a simple CI/CD pipeline using GitHub Actions.
+
 GitHub Actions is a powerful CI/CD (Continuous Integration/Continuous Deployment) platform that enables developers to automate their software workflows directly within their GitHub repositories. With GitHub Actions, you can create custom workflows that build, test, package, release, or deploy your code whenever an event occurs in your repository, such as a push, pull request, or issue creation.
 
 Key Features of GitHub Actions
@@ -443,6 +449,7 @@ Deploy to Server: Placeholder for deployment commands
 
 (7) Introduction to Visual Studio:
 What is Visual Studio, and what are its key features? How does it differ from Visual Studio Code?
+
 Visual Studio is an integrated development environment (IDE) developed by Microsoft. It is designed for creating applications across multiple platforms, including Windows, web, cloud, and mobile. Visual Studio supports a wide array of programming languages such as C#, C++, Python, JavaScript, and more. It is particularly renowned for its extensive features that enhance developer productivity and support for large-scale enterprise development.
 
 Key Features of Visual Studio
@@ -484,6 +491,7 @@ Unity Game Development: Many game developers use Visual Studio for Unity game de
 
 (8) Integrating GitHub with Visual Studio:
 Describe the steps to integrate a GitHub repository with Visual Studio. How does this integration enhance the development workflow?
+
 Integrating GitHub with Visual Studio streamlines the development workflow by providing seamless access to version control features directly within the IDE. This integration allows developers to manage their repositories, track changes, and collaborate effectively without leaving the development environment.
 
 Steps to Integrate a GitHub Repository with Visual Studio
@@ -540,7 +548,7 @@ Microsoft Documentation: The Microsoft Docs team uses Visual Studio integrated w
 
 
 (9) Debugging in Visual Studio:
-Explain the debugging tools available in Visual Studio. How can developers use these tools to identify and fix issues in their code?
+Explain the debugging tools available in Visual Studio. How can developers use these tools to identify and fix issues in their code?.
 
 Visual Studio offers a comprehensive set of debugging tools that help developers identify, diagnose, and fix issues in their code. These tools are designed to provide deep insights into code execution, making it easier to understand program behavior and locate bugs efficiently.
 
@@ -610,8 +618,9 @@ Step 6: Use performance profiling to verify the improvements.
 
 
 
-Collaborative Development using GitHub and Visual Studio:
+(10) Collaborative Development using GitHub and Visual Studio:
 Discuss how GitHub and Visual Studio can be used together to support collaborative development. Provide a real-world example of a project that benefits from this integration.
+
 Using GitHub and Visual Studio Together for Collaborative Development
 Integration Overview
 Integrating GitHub with Visual Studio allows developers to leverage powerful version control and collaborative features within a robust integrated development environment (IDE). This combination enhances productivity, streamlines workflows, and improves code quality through better version control, seamless collaboration, and efficient code reviews.
